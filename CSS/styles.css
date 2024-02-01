@@ -93,4 +93,17 @@
     flex-direction: column;
     font-style: oblique;
   }
-  
+  .mudiv p{
+    display: flex;
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: azure;
+    font-style: italic;
+    padding-top: 2px;
+  }
+ .ski p{
+  display: flex;
+  padding: 2px;
+  line-height: 1px;
+  padding: 2px;
+ }
