@@ -109,15 +109,7 @@ nav a:hover {
   padding-top: 2px;
   flex-direction: column;
 }
-.mudijo {
-  display: flex;
-  font-size: 15px;
-  padding-bottom: 5px;
-  color: azure;
-  font-style: italic;
-  padding-top: 2px;
-  flex-direction: column;
-}
+
 .blogg{
   display: flex;
   font-size: 15px;
@@ -173,5 +165,21 @@ nav a:hover {
   color: azure;
   font-style: italic;
   padding-top: 2px;
+  flex-direction: column;
+}
+.mudijo {
+  display: flex;
+  font-size: 17px;
+  padding-bottom: 5px;
+  color: azure;
+  font-style: italic;
+  padding-top: 2px;
+  flex-direction: column;
+  margin-left: 0;
+}
+.mudijo p {
+  padding: 5px;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   flex-direction: column;
 }
