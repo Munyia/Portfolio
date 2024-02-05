@@ -126,10 +126,10 @@ nav a:hover {
   background-color: #333;
   color: #fff;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   text-decoration: none;
   border-radius: 5px;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 .back-button,
 .next-button:hover {
@@ -142,10 +142,10 @@ nav a:hover {
   background-color: #333;
   color: #fff;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   text-decoration: none;
   border-radius: 5px;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 .back-button:hover {
@@ -169,13 +169,12 @@ nav a:hover {
 }
 .mudijo {
   display: flex;
-  font-size: 17px;
+  font-size: 18px;
   padding-bottom: 5px;
   color: azure;
   font-style: italic;
   padding-top: 2px;
   flex-direction: column;
-  margin-left: 0;
 }
 .mudijo p {
   padding: 5px;
