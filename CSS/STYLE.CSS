@@ -5,7 +5,7 @@
 body{
   display: flex;
   justify-content: space-between;
-  background-color: dimgrey;
+  background-color: ivory;
 
 }
 header {
@@ -14,7 +14,7 @@ header {
   width: 30vh;
   max-height: 100vh;
   overflow: hidden;
-  background-color: grey;
+  background-color:slateblue;
   color: white;
   padding-bottom: 10px;
   padding-left: 20px;

@@ -5,14 +5,20 @@
 body {
   display: flex;
   justify-content: space-between;
-  background-color: dimgrey;
+  background-color: ivory; 
+}
+h3{
+  color: slategray;
+}
+h1{
+  color: black;
 }
 header {
   padding-top: 20px;
   justify-content: center;
   width: 30vh;
   max-height: 100vh;
-  background-color: grey;
+  background-color:slateblue;
   color: white;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -23,13 +29,13 @@ header p {
 #muni {
   font-size: 40px;
   padding-bottom: 10px;
-  color: azure;
+  color: black;
   font-style: italic;
 }
 #web {
   font-size: 30px;
   padding-bottom: 30px;
-  color: azure;
+  color:cyan;
   font-style: italic;
 }
 nav a {
@@ -51,6 +57,8 @@ nav a {
 #portfolio {
   text-decoration: underline;
   color: red;
+  font-style: italic;
+  font-size: large;
 }
 #portfolio:hover,
 nav a:hover {
@@ -80,7 +88,7 @@ nav a:hover {
   display: flex;
   font-weight: 100;
   font-size: x-large;
-  color: azure;
+  color: teal;
   align-items: center;
   gap: 20px;
 }
@@ -92,19 +100,11 @@ nav a:hover {
   flex-direction: column;
   font-style: oblique;
 }
-.mudiv p {
-  display: flex;
-  font-size: 15px;
-  padding-bottom: 30px;
-  color: azure;
-  font-style: italic;
-  padding-top: 2px;
-}
 .ski {
   display: flex;
   font-size: 15px;
   padding-bottom: 5px;
-  color: azure;
+  color: teal;
   font-style: italic;
   padding-top: 2px;
   flex-direction: column;
@@ -114,7 +114,7 @@ nav a:hover {
   display: flex;
   font-size: 15px;
   padding-bottom: 5px;
-  color: azure;
+  color: teal;
   font-style: italic;
   padding-top: 2px;
   flex-direction: column;
@@ -131,7 +131,7 @@ nav a:hover {
   border-radius: 5px;
   margin: 15px auto;
 }
-.back-button,
+.back-button
 .next-button:hover {
   background-color:red;
 }
@@ -162,7 +162,7 @@ nav a:hover {
   display: flex;
   font-size: 18px;
   padding-bottom: 5px;
-  color: azure;
+  color: teal;
   font-style: italic;
   padding-top: 2px;
   flex-direction: column;
@@ -171,7 +171,7 @@ nav a:hover {
   display: flex;
   font-size: 18px;
   padding-bottom: 5px;
-  color: azure;
+  color: teal;
   font-style: italic;
   padding-top: 2px;
   flex-direction: column;
@@ -181,4 +181,22 @@ nav a:hover {
   display: flex;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   flex-direction: column;
+}
+.mudiv{
+  display: flex;
+  font-size: 18px;
+  padding-bottom: 5px;
+  color:teal;
+  font-style: italic;
+  padding-top: 2px;
+  flex-direction: column; 
+}
+.mudiv h1{
+  gap: 5px;
+}
+.mudiv p{
+  padding: 5px;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: column; 
 }
